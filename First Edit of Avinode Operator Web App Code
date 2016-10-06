@@ -1,0 +1,19 @@
+<meta name="gwt:property" content="locale=en_US”/>
+
+<link rel="stylesheet" href="customLink.css" type="text/css" />
+
+<script type="text/javascript” src="http://link.avinode.com/avinode/AvinodeLinkWeb/com.avinode.gwt.operatorlink.OperatorLinkClient/com.avinode.gwt.operatorlink.OperatorLinkClient.nocache.js">
+</script>
+
+
+<script type="text/javascript">
+  function onAvinodeLinkReady() {
+    AvinodeOperatorLink.init(
+      'operatorappvas',
+      'vas123',
+      'avinode-operator-link',
+      ‘AIzaSyDCCP7RKO9OzAZV2rXVb-0qy7n3NuVIh48’,
+      'USD',
+      'wide');
+  }
+</script>
