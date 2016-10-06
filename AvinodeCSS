@@ -1,0 +1,625 @@
+/* Basic style
+-------------------------------------------------*/
+/*
+Values in this section determine the style of the basic elements.
+*/
+
+#avi-broker-link td div h2, #avi-broker-link td div h3  {
+	margin-bottom:0em;
+}
+#avi-broker-link h2 { font-size:1.6em; }
+#avi-broker-link h3 { font-size:1.5em; }
+#avi-broker-link p { margin:0 0 1.4em; }
+
+#avi-operator-link h2, #avi-operator-link h3  {
+	margin-bottom:0.3em;
+	margin-top:7px;
+	font-weight:normal;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color:#666;
+}
+
+#avi-operator-link td div h2, #avi-operator-link td div h3  {
+	margin-bottom:0em;
+}
+#avi-operator-link h2 { font-size:1.6em; }
+#avi-operator-link h3 { font-size:1.5em; }
+#avi-operator-link p { margin:0 0 1.4em; }
+
+
+/*If the page heads is not to be shown, deactivate the display:block or set it to display:none;*/
+#link-page-head {
+	display:block;
+	}
+/*If the page section heads is not to be shown, activate the display:none */
+.head-3 { 
+	/*display:none;*/
+	}
+
+/*If the route section head is not to be shown, deactivate the visibility:visible; or set it to visibility:hidden;*/
+#link-route-head { 
+	visibility:visible;
+	}
+/* !!Only in Broker link with Category page!! If the model listing head is not to be shown, deactivate the visibility:visible; or set it to visibility:hidden;*/
+#link-models-head { 
+	visibility:visible;
+}
+
+/* 
+If the route section head is set not to be shown (see above), you may activate this section
+to push the route section up a bit.
+*/
+#link-route-head h3 { 
+	/*font-size:0;*/
+	}
+
+/*
+ Values in this section determine the style of the form input fields.
+ If your page already have styles for input fields then the Broker/Operator Link will 
+ probably inherit these styles and the styles in this section can remain 
+ deactivated.
+*/
+input[type="text"], textarea, select
+{
+    /*font-family: "Lucida Grand", "Lucida Sans Unicode", Helvetica, sans-serif;*/
+    /*font-size: 12px;*/
+    /*background-color: rgb(255, 255, 255) !important;*/
+    /*border-color: rgb(0, 0, 0) !important;*/
+    /*color: rgb(0, 0, 0) !important;*/
+}
+
+/*
+ Values in this section determine the style of the items in the airport
+ suggest popup list.
+*/
+.gwt-SuggestBoxPopup .item
+{
+    /*background-color: rgb(255, 255, 255) !important;*/
+    /*border-color: rgb(0, 0, 0) !important;*/
+    /*color: rgb(0, 0, 0) !important;*/
+}
+ 
+/*
+ Values in this section determine the style of the links. If your page already
+ have styles for links then the Broker Link will probably inherit these styles
+ and the styles in this section can remain deactivated.
+*/
+/*
+#avi-search-form a, 
+#avi-search-form a:link, 
+#avi-search-form a:visited, 
+#avi-search-form a:active, 
+.popupContent a, 
+.popupContent a:link, 
+.popupContent a:visited, 
+.popupContent a:active
+{
+    color: rgb(68, 170, 0);
+    text-decoration: none;
+}
+*/
+
+/*
+ Values in this section determine the style of a link when the mouse pointer
+ hovers over it. If your page already have styles for this then the Broker Link
+ will probably inherit these styles and the styles in this section can remain 
+ deactivated.
+*/
+/*
+#avi-search-form a:hover,avinode-operator-link
+.popupContent a:hover 
+{
+    text-decoration: underline;
+}
+*/
+
+#avi-search-form
+{
+    /*color: rgb(0, 0, 0);*/
+    /*background-color: rgb(255, 255, 255);*/
+}
+
+/*To remove the right footer VAT disclaimer, activate the display:none*/
+.link-footer-disclaimer 
+{
+    /*display: none;*/
+}
+
+
+/********************
+    SEARCH FORM
+********************/
+
+
+/*
+ Values in this section determine the style of the search form embedded in 
+ your page. If your page already have styles for these then the Broker/Operator Link
+ will probably inherit these styles and the styles in this section can 
+ remain deactivated. If you have choosen a different id of your <div> tag 
+ then you need to change "avinode-broker-link" or "avinode-operator-link" below to the id you have.
+*/
+#avinode-operator-link
+{
+    /*background-color: rgb(255, 255, 255);*/
+    /*color: rgb(0, 0, 0);*/
+    /*font-family: "Lucida Grand", "Lucida Sans Unicode", Helvetica, sans-serif;*/
+    /*font-size: 12px;*/
+    /*padding: 10px;*/
+}
+#avinode-broker-link
+{
+    /*background-color: rgb(255, 255, 255);*/
+    /*color: rgb(0, 0, 0);*/
+    /*font-family: "Lucida Grand", "Lucida Sans Unicode", Helvetica, sans-serif;*/
+    /*font-size: 12px;*/
+    /*padding: 10px;*/
+}
+
+/* 
+ Values in this section determine the style of the language select area.
+ Activate the 'display: none;' style to remove this area.
+*/
+#avi-nls-options
+{
+    /*display: none;*/
+}
+
+#avi-route-builder{
+	}
+
+.avi-route-builder-thin .avi-route-type-option
+{
+}
+.avi-route-type-radio-label
+{
+}
+
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Multiple destinations" link in a 'thin' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+*/
+.avi-route-builder-thin #avi-route-type-link-multileg
+{
+    /*display: none;*/
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ currency select box in a 'thin' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+*/
+.avi-route-builder-thin #avi-currency-select-wrapper
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Show map" link in a 'thin' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+*/
+.avi-route-builder-thin .avi-map-link-wrapper
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Show map" link in a 'wide' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+*/
+.avi-route-builder-wide .avi-map-link-wrapper
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Show map" link in the popup search form.
+ Activate the 'display: none;' style to remove this area.
+*/
+.popupContent .avi-route-builder-wide .avi-map-link-wrapper
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Depature" and "Arrival" radio buttons under the date/time inputs link 
+ in a 'thin' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+ When this area is removed the default value will be "Departure". 
+*/
+.avi-route-builder-thin .avi-date-type
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Depature" and "Arrival" radio buttons under the date/time inputs link 
+ in a 'wide' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+ When this area is removed the default value will be "Departure". 
+*/
+.avi-route-builder-wide .avi-date-type
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Depature" and "Arrival" radio buttons under the date/time inputs link 
+ in the popup search form.
+ Activate the 'display: none;' style to remove this area.
+ When this area is removed the default value will be "Departure". 
+*/
+.popupContent .avi-route-builder-wide .avi-date-type
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Local time" and "UTC" radio buttons in a 'thin' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+ When this area is removed the default value will be "Local time". 
+*/
+.avi-route-builder-thin .avi-time-options
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Local time" and "UTC" radio buttons in a 'wide' embedded search form.
+ Activate the 'display: none;' style to remove this area.
+ When this area is removed the default value will be "Local time". 
+*/
+.avi-route-builder-wide .avi-time-options
+{
+    /* display: none; */
+}
+
+/* 
+ Values in this section determine the style of the area containing the 
+ "Local time" and "UTC" radio buttons in the popup search form.
+ Activate the 'display: none;' style to remove this area.
+ When this area is removed the default value will be "Local time". 
+*/
+.popupContent .avi-route-builder-wide .avi-time-options
+{
+    /* display: none; */
+}
+
+
+/********************
+       POPUP
+********************/
+
+/* 
+ Values in this section determine the style of the popup area header
+*/
+.popup-controls 
+{
+    /*background-color: rgb(255, 255, 255);*/
+}
+
+.popup-controls a, 
+.popup-controls a:link, 
+.popup-controls a:visited, 
+.popup-controls a:active
+{
+    /*color: rgb(255, 255, 255);*/
+}
+
+
+
+/* 
+ Values in this section determine the style of the popup area
+*/
+.popup-scroll
+{
+    /*background-color: rgb(255, 255, 255);*/
+}
+
+
+/********************
+ SEARCH RESULT PAGES
+********************/
+
+/* 
+ Values in this section determine the style of the status bar.
+*/
+.avi-wizard-progress li
+{
+    background-color: #fff;
+    border-bottom-color: #00679A;
+}
+
+/* 
+ Values in this section determine the style of area displaying the
+ requested route and flight times
+*/
+.route
+{
+    /*background-color: rgb(255, 255, 255);*/
+    /*color: rgb(0, 0, 0);*/
+}
+/* 
+ Values in this section determine the style of header of the area 
+ displaying the requested route and flight times
+*/
+.route thead
+{
+    /*background-color: rgb(255, 255, 255);*/
+}
+.route thead td {
+	color:#111;
+	background:#ceb696 url(link-img/bg-thead.gif) repeat-x 0 0;
+	border-bottom:2px solid #cdad83;
+}
+
+/* 
+ Values in this section determine the style of the of the area 
+ containing the requested flight times
+*/
+.route td { padding-left:0; }
+.route-row-times td
+{
+    /*font-size: 80%;*/
+    /*padding-left: 20px !important;*/
+}
+
+/* 
+ Values in this section determine the style of header of the mouse over
+ popup in the area displaying the requested route and flight times
+*/
+.popup-tooltip 
+{
+    /*background-color: rgb(255, 255, 255) !important;*/
+    /*color: rgb(0, 0, 0);*/
+}
+
+/* 
+ Values in this section determine the style of "Show all legs" link when
+ more than three legs was requested
+*/
+.route-row-overflow a
+{
+    /*color: rgb(0, 0, 0);*/
+}
+
+/* 
+ Values in this section determine the style of "Map" link in
+ the route table.
+*/
+.route a.avi-map { 
+	display:block;
+	padding:2px 0 2px 21px;
+	background:url(link-img/world.png) no-repeat 0 0;
+}
+
+
+/*
+ Values in these sections determine the style of link for sending request in 
+ the search result and search & send request button (The shadowing and radius is not supported in < IE9).
+*/
+a.link-nav-forward-request,
+a.link-nav-forward-search 
+{
+-moz-border-radius:4px 4px 4px 4px;
+-webkit-border-radius:4px 4px 4px 4px;
+border-radius:4px 4px 4px 4px;
+-moz-box-shadow:2px 2px 3px rgba(102, 102, 102, 0.6);
+-webkit-box-shadow:2px 2px 3px rgba(102, 102, 102, 0.6);
+box-shadow:2px 2px 3px rgba(102, 102, 102, 0.6);
+background:repeat-x scroll 0 100% #cfb85b;
+border:1px solid #ae9435;
+color:#FFFFFF !important;
+cursor:pointer;
+font-weight:bold !important;
+margin:0 0 0 5px;
+padding:4px 10px 3px;
+text-shadow:1px 1px 1px rgba(17, 17, 17, 0.4);
+vertical-align:middle;
+}
+a.link-nav-forward-request:hover,
+a.link-nav-forward-search:hover {
+	color:#d4c17f;
+	background-color:#d4c17f;
+	border-color:#cfb85b;
+	text-decoration:none;
+}
+
+/* Icons - show/hide pictures
+-------------------------------------------------*/
+#top-nav a:hover,
+#top-nav a.link-nav-selected:hover { color:#333; }
+#top-nav a.link-nav-selected { color:#666; }
+#top-nav a#avi-show-img { background-image:url(link-img/icon-img-list.gif); }
+#top-nav a#avi-hide-img { background-image:url(link-img/icon-txt-list.gif); }
+
+a.link-nav-forward-models 
+{
+	margin-top:5px;
+	padding-right:0;
+}
+
+/* Tabel heads*/
+.link-inquiry-selected thead{
+	 /*background-color: rgb(155, 188, 220);*/
+	}
+.link-inquiry-selected thead td {
+	color:#111;
+	background:#ceb696 url(link-img/bg-thead.gif) repeat-x 0 0;
+	border-bottom:2px solid #cdad83;
+	
+}
+
+.link-models thead td {
+	color:#111;
+	background:#ceb696 url(link-img/bg-thead.gif) repeat-x 0 0;
+	border-bottom:2px solid #cdad83;
+	
+}
+/*
+ Values in these sections determine the style of "even" and "odd" lines in 
+ the search result. Changing background color of these can for example
+ result in a zebra colored result list.  
+*/
+.link-even { background-color:#fcf8f2; }
+.link-odd { background-color:#fff; }
+.link-models tbody tr:hover td, .link-inquiry-selected tbody tr:hover td {
+	background-color:#eef4f8 !important;
+	border-color:#cce0ed;
+}
+
+/*
+ Values in this section determine the style of the links in the "even" 
+ and "odd" lines in the search result.   
+*/
+.link-even a,
+.link-odd a
+{
+    /*color: rgb(68, 170, 0);*/
+}
+
+/*
+ Column head Price in the search result.
+ Activate the 'display: none;' style to remove this column.
+
+*/
+.link-model-col-price  
+{
+     /*display: none;*/
+}
+
+/*
+ Column head Category in the search result (Operator link/Limited Broker link).
+ Activate the 'display: none;' style to remove this column.
+
+*/
+.link-model-col-category  
+{
+     /*display: none;*/
+}
+/*
+ Values in this section determine the style of category aircraft title in 
+ the search result.
+*/
+td.link-category-title 
+{
+	font-weight:bold;
+	font-size:1.2em;
+}
+/*
+ Values in this section determine the style of category aircraft sampel title in 
+ the search result.
+*/
+.link-category-aircraft-sample-title
+{
+	font-weight:bold;
+}
+
+/*
+ Values in this section determine the style of selected lines in 
+ the search result.
+*/
+.link-selected
+{
+    background-color: #d9ebf4;
+    /*color: rgb(0, 0, 0);*/
+}
+/*
+ Values in this section determine the style of the links in the selected 
+ lines in the search result.
+*/
+.link-selected a
+{
+    /*color: rgb(68, 170, 0);*/
+}
+
+/*
+ Values in these sections determine the style of the headers in the tables
+ used to select specific aircraft models.
+*/
+.link-inquiry-selected thead
+{
+    /*background-color: rgb(207, 224, 236);*/
+}
+.link-models thead
+{
+    /*background-color: rgb(207, 224, 236);*/
+}
+
+/*
+ Values in this section determine the style of the fact sheet link in the 
+ aircraft/model popup.
+*/
+.link-model-aircraft-fact-sheet {
+	font-weight:bold;
+	}
+
+/*
+ Values in these sections determine the style of the rows in the tables
+ used to select specific aircraft models.
+*/
+.link-inquiry-selected td
+{
+    /*border-bottom-style: solid;*/
+    /*border-bottom-width: 1px;*/
+    /*border-bottom-color: #ffffff;*/
+}
+.link-models td
+{
+    /*border-bottom-style: solid;*/
+    /*border-bottom-width: 1px;*/
+    /*border-bottom-color: #ffffff;*/
+}
+
+
+/*
+ Values in these sections determine the style of some of the horizontal
+ rulers.
+*/
+.link-section-break,
+.avi-route-leg,
+.avi-route-options,
+.link-model-nav
+{
+    /*border-color: rgb(255, 255, 255) !important;*/
+}
+.link-category,
+.link-category-form
+{
+    /*border-color: rgb(255, 255, 255) !important;*/
+}
+
+
+/*
+ Values in this section determine the style of the status popup.
+*/
+.Status-Popup
+{
+    /*background-color: rgb(255, 255, 255) !important;*/
+}
+
+/*
+ Values in this section determine the style of the status popup.
+*/
+.Status-Text
+{
+    /*color: rgb(255, 255, 255);*/
+}
+
+/*
+ Values in this section determine the style of the link in the status popup.
+*/
+.Status-Text a
+{
+    /*color: rgb(68, 170, 0);*/
+}
+
