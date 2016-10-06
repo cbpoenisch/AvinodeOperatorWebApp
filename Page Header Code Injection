@@ -1,0 +1,37 @@
+<head>
+
+
+<meta name=”gwt:property” content=”locale=CODE” />
+
+<link rel=”stylesheet” href=”CSS_FILE_PATH” type=”text/css” />
+
+<script type=”text/javascript” src=”http://link.avinode.com/avinode/
+
+AvinodeLinkWeb/com.avinode.gwt.operatorlink.OperatorLinkClient/com.
+
+avinode.gwt.operatorlink.OperatorLinkClient.nocache.js”>
+
+</script>
+
+<script type=”text/javascript”>
+
+function onAvinodeLinkReady() {
+
+AvinodeOperatorLink.init(‘USERNAME’,
+
+‘PASSWORD’,
+
+‘DIV_ID’,
+
+‘GOOGLE_API_KEY’,
+
+‘DEFAULT_CURRENCY’,
+
+‘LAYOUT’);
+
+}
+
+</script>
+
+
+</head>
