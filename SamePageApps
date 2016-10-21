@@ -1,0 +1,28 @@
+
+
+<meta name="gwt:property" content="locale=en_US" />
+
+<script type="text/javascript">function onAvinodeLinkReady() { AvinodeOperatorLink.init('operatorappvas', 'vas123', 'avinode-operator-link', 'AIzaSyAUx8i7xEp4VpnNrUbd2rAUPs9U-ASsRg8', 'USD', 'wide');}</script>
+
+<div id="avinode-operator-link" />
+
+<meta name="gwt:property" content="locale=en_US" />
+<script type="text/javascript" src="http://link.avinode.com/avinode/AvinodeLinkWeb/emptyleglinkapp.EmptyLegLinkClient/emptyleglinkapp.EmptyLegLinkClient.nocache.js">
+</script>
+<script type="text/javascript">function onAvinodeEmptyLegLinkLoaded() {
+AvinodeEmptyLegLink.init('elappvas', 'vas789', 'avinode-empty-leg-link', 'AIzaSyAUx8i7xEp4VpnNrUbd2rAUPs9U-ASsRg8', '', '');
+} </script>
+<div id="avinode-empty-leg-link" />
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" /> 
+
+<script type="text/javascript" 
+src="http://link.avinode.com/avinode/AvinodeLinkWeb/AvinodeLinkApp/AvinodeLinkApp.nocache.js">
+</script>
+
+<script type="text/javascript">function onAvinodeLinkLoaded() {
+AvinodeLink.initOL('operatorappvas', 'vas123', 'avinode-operator-link', 'AIzaSyAUx8i7xEp4VpnNrUbd2rAUPs9U-ASsRg8', 'USD', 'wide');
+AvinodeLink.initEL('elappvas', 'vas789', 'avinode-empty-leg-link', 'AIzaSyAUx8i7xEp4VpnNrUbd2rAUPs9U-ASsRg8', '', '');
+}
+</script>
