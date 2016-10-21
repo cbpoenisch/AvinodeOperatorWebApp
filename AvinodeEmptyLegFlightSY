@@ -1,0 +1,7 @@
+<meta name="gwt:property" content="locale=en_US" />
+<script type="text/javascript" src="http://link.avinode.com/avinode/AvinodeLinkWeb/emptyleglinkapp.EmptyLegLinkClient/emptyleglinkapp.EmptyLegLinkClient.nocache.js">
+</script>
+<script type="text/javascript">function onAvinodeEmptyLegLinkLoaded() {
+AvinodeEmptyLegLink.init('elappvas', 'vas789', 'avinode-empty-leg-link', 'AIzaSyAUx8i7xEp4VpnNrUbd2rAUPs9U-ASsRg8', '', '');
+} </script>
+<div id="avinode-empty-leg-link" />
